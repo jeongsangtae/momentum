@@ -7,7 +7,7 @@ function getClock() {
   const hours = String(date.getHours()).padStart(2, "0");
   const minutes = String(date.getMinutes()).padStart(2, "0");
   const seconds = String(date.getSeconds()).padStart(2, "0");
-  clock.innerText = `${hours}:${minutes}:${seconds}`;
+  clock.innerText = `${hours}:${minutes}`;
 }
 
 getClock(); //이게 없으면 1초동안 00:00:00 표시하고 그 뒤에 시간갱신
