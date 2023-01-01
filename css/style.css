@@ -43,10 +43,11 @@ img {
 
 .quote {
   margin-top: 100px;
+  margin-bottom: 25px;
   position: absolute;
   bottom: 0;
-  right: 20%;
-  left: 30%;
+  right: 25%;
+  left: 25%;
 }
 
 .weather {
