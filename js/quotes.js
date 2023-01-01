@@ -52,6 +52,7 @@ const quotes = [
 const quote = document.querySelector(".quote span:first-child");
 const author = document.querySelector(".quote span:last-child");
 
+// Math.random()을 사용해 무작위로 quote, author를 가져오고, quotes가 추가됐을 때도 문제없이 전체가 나올 수 있게 array.length를 사용해 Array를 반환
 const todaysQuote = quotes[Math.floor(Math.random() * quotes.length)];
 quote.innerText = todaysQuote.quote;
 author.innerText = todaysQuote.author;
